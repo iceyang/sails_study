@@ -7,9 +7,9 @@ sails目前稳定版本：0.10.2
 npm install -g sails@0.10.2
 
 2.  使用sails命令行创建新项目  
-sails new testProject    
+sails new testProject  
+成功创建完新项目后，项目结构如下：  
 
-        成功创建完新项目后，项目结构如下：
         project
         |---api
         |    |---controllers  //MVC -> C
@@ -40,7 +40,6 @@ sails new testProject
         |---views             //MVC -> V
 
 3.  运行刚创建的项目  
-
-        cd testProject
-        sails lift
-        运行成功后，访问http://localhost:1337/，就能看到默认首页。
+cd testProject  
+sails lift  
+运行成功后，访问http://localhost:1337/，就能看到默认首页。  
